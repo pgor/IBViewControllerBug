@@ -1,4 +1,4 @@
-* IBViewControllerBug
+# IBViewControllerBug
 
 Demonstrates a problem in mixed Objective-C and Swift projects: An Objective-C view controller extended in Swift is interpreted by Interface Builder as a Swift class that uses the app's module name, but the compiled class does not have a module name so it is not found at runtime.
 
@@ -9,13 +9,15 @@ Demonstrates a problem in mixed Objective-C and Swift projects: An Objective-C v
 - Main.storyboard has had the view controllers' Identity inspectors updated to reflect the controllers' class names as if you were adding existing classes to the storyboard
 
 Run the app and observe:
+
 - FirstViewController's view does not have an orange backgroundColor (indicating it didn't load)
 - SecondViewController's view does have a blue backgroundColor (indicating it did load)
 - There is a line of console output reading "Unknown class _TtC19IBViewControllerBug19FirstViewController in Interface Builder file."
 - If you run `nm IBViewControllerBug | grep _TtC19IBViewControllerBug19FirstViewController` against the generated binary, you can confirm this symbol does not exist
 - If you run `nm IBViewControllerBug | grep Third` against the binary and compare it against grepping for 'First', you can see there are symbols similar to what IB is expecting (i.e. ending in '19IBViewControllerBug19ThirdViewController')
 
-Further exploration: (done in branch 'not_extended')
+Further exploration (done in branch 'not_extended'):
+
 - Remove 'ExtendFirst.swift' from the build target
 - Compile to ensure updated symbols are indexed
 - Open Main.storyboard and examine the First Scene's view controller class identity
@@ -23,6 +25,7 @@ Further exploration: (done in branch 'not_extended')
 - Build and Run the app
 
 Observe:
+
 - FirstViewController now loads and the first tab is orange
 - The storyboard xml viewController element no longer includes the attributes 'customModule="IBViewControllerBug" customModuleProvider="target"'
 
@@ -30,4 +33,4 @@ I am not sure if the bug here is that IB is including a module name it shouldn't
 
 Regardless, this is a bit worrisome for legacy Objective-C apps that developers can silently break by simply extending existing view controllers.
 
-- pcg, 2016aug19
+-- pcg, 2016aug19

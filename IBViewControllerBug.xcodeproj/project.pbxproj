@@ -44,7 +44,7 @@
 		D9A4902F1D6682C100E9F8C4 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		D9A490301D6682C100E9F8C4 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		D9A490321D66840E00E9F8C4 /* ExtendFirst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtendFirst.swift; sourceTree = "<group>"; };
-		D9A490341D6684D900E9F8C4 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		D9A490341D6684D900E9F8C4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D9A490351D668C7A00E9F8C4 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,7 +69,7 @@
 		D9A48FFD1D66828300E9F8C4 = {
 			isa = PBXGroup;
 			children = (
-				D9A490341D6684D900E9F8C4 /* README.txt */,
+				D9A490341D6684D900E9F8C4 /* README.md */,
 				D9A490081D66828300E9F8C4 /* IBViewControllerBug */,
 				D9A4901F1D66828300E9F8C4 /* IBViewControllerBugTests */,
 				D9A490071D66828300E9F8C4 /* Products */,
@@ -413,6 +413,7 @@
 				D9A490271D66828300E9F8C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9A490281D66828300E9F8C4 /* Build configuration list for PBXNativeTarget "IBViewControllerBugTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +422,7 @@
 				D9A4902A1D66828300E9F8C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		D9A4900A1D66828300E9F8C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A490091D66828300E9F8C4 /* AppDelegate.swift */; };
-		D9A4900C1D66828300E9F8C4 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A4900B1D66828300E9F8C4 /* FirstViewController.swift */; };
-		D9A4900E1D66828300E9F8C4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A4900D1D66828300E9F8C4 /* SecondViewController.swift */; };
 		D9A490111D66828300E9F8C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9A4900F1D66828300E9F8C4 /* Main.storyboard */; };
 		D9A490131D66828300E9F8C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9A490121D66828300E9F8C4 /* Assets.xcassets */; };
 		D9A490161D66828300E9F8C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9A490141D66828300E9F8C4 /* LaunchScreen.storyboard */; };
 		D9A490211D66828300E9F8C4 /* IBViewControllerBugTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A490201D66828300E9F8C4 /* IBViewControllerBugTests.swift */; };
+		D9A4902E1D6682B300E9F8C4 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A4902D1D6682B300E9F8C4 /* FirstViewController.m */; };
+		D9A490311D6682C100E9F8C4 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A490301D6682C100E9F8C4 /* SecondViewController.m */; };
+		D9A490331D66840E00E9F8C4 /* ExtendFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A490321D66840E00E9F8C4 /* ExtendFirst.swift */; };
+		D9A490361D668C7A00E9F8C4 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A490351D668C7A00E9F8C4 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,8 +31,6 @@
 /* Begin PBXFileReference section */
 		D9A490061D66828300E9F8C4 /* IBViewControllerBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBViewControllerBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9A490091D66828300E9F8C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D9A4900B1D66828300E9F8C4 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		D9A4900D1D66828300E9F8C4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		D9A490101D66828300E9F8C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D9A490121D66828300E9F8C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9A490151D66828300E9F8C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +38,14 @@
 		D9A4901C1D66828300E9F8C4 /* IBViewControllerBugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IBViewControllerBugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9A490201D66828300E9F8C4 /* IBViewControllerBugTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBViewControllerBugTests.swift; sourceTree = "<group>"; };
 		D9A490221D66828300E9F8C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9A4902B1D6682B300E9F8C4 /* IBViewControllerBug-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IBViewControllerBug-Bridging-Header.h"; sourceTree = "<group>"; };
+		D9A4902C1D6682B300E9F8C4 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		D9A4902D1D6682B300E9F8C4 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		D9A4902F1D6682C100E9F8C4 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		D9A490301D6682C100E9F8C4 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		D9A490321D66840E00E9F8C4 /* ExtendFirst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtendFirst.swift; sourceTree = "<group>"; };
+		D9A490341D6684D900E9F8C4 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		D9A490351D668C7A00E9F8C4 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,7 @@
 		D9A48FFD1D66828300E9F8C4 = {
 			isa = PBXGroup;
 			children = (
+				D9A490341D6684D900E9F8C4 /* README.txt */,
 				D9A490081D66828300E9F8C4 /* IBViewControllerBug */,
 				D9A4901F1D66828300E9F8C4 /* IBViewControllerBugTests */,
 				D9A490071D66828300E9F8C4 /* Products */,
@@ -80,12 +89,17 @@
 			isa = PBXGroup;
 			children = (
 				D9A490091D66828300E9F8C4 /* AppDelegate.swift */,
-				D9A4900B1D66828300E9F8C4 /* FirstViewController.swift */,
-				D9A4900D1D66828300E9F8C4 /* SecondViewController.swift */,
+				D9A4902C1D6682B300E9F8C4 /* FirstViewController.h */,
+				D9A4902D1D6682B300E9F8C4 /* FirstViewController.m */,
+				D9A490321D66840E00E9F8C4 /* ExtendFirst.swift */,
+				D9A4902F1D6682C100E9F8C4 /* SecondViewController.h */,
+				D9A490301D6682C100E9F8C4 /* SecondViewController.m */,
+				D9A490351D668C7A00E9F8C4 /* ThirdViewController.swift */,
 				D9A4900F1D66828300E9F8C4 /* Main.storyboard */,
 				D9A490121D66828300E9F8C4 /* Assets.xcassets */,
 				D9A490141D66828300E9F8C4 /* LaunchScreen.storyboard */,
 				D9A490171D66828300E9F8C4 /* Info.plist */,
+				D9A4902B1D6682B300E9F8C4 /* IBViewControllerBug-Bridging-Header.h */,
 			);
 			path = IBViewControllerBug;
 			sourceTree = "<group>";
@@ -200,9 +214,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9A4900E1D66828300E9F8C4 /* SecondViewController.swift in Sources */,
+				D9A490331D66840E00E9F8C4 /* ExtendFirst.swift in Sources */,
+				D9A490311D6682C100E9F8C4 /* SecondViewController.m in Sources */,
+				D9A490361D668C7A00E9F8C4 /* ThirdViewController.swift in Sources */,
 				D9A4900A1D66828300E9F8C4 /* AppDelegate.swift in Sources */,
-				D9A4900C1D66828300E9F8C4 /* FirstViewController.swift in Sources */,
+				D9A4902E1D6682B300E9F8C4 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,10 +347,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = IBViewControllerBug/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.corporationunknown.IBViewControllerBug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IBViewControllerBug/IBViewControllerBug-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -342,10 +361,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = IBViewControllerBug/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.corporationunknown.IBViewControllerBug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IBViewControllerBug/IBViewControllerBug-Bridging-Header.h";
 			};
 			name = Release;
 		};

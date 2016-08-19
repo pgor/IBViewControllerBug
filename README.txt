@@ -15,7 +15,7 @@ Run the app and observe:
 - If you run `nm IBViewControllerBug | grep _TtC19IBViewControllerBug19FirstViewController` against the generated binary, you can confirm this symbol does not exist
 - If you run `nm IBViewControllerBug | grep Third` against the binary and compare it against grepping for 'First', you can see there are symbols similar to what IB is expecting (i.e. ending in '19IBViewControllerBug19ThirdViewController')
 
-Further exploration:
+Further exploration: (done in branch 'not_extended')
 - Remove 'ExtendFirst.swift' from the build target
 - Compile to ensure updated symbols are indexed
 - Open Main.storyboard and examine the First Scene's view controller class identity

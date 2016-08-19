@@ -1,5 +1,11 @@
 # IBViewControllerBug
 
+## Corresponding Bug Reports
+
+- Apple rdar://27925575
+
+## Description
+
 Demonstrates a problem in mixed Objective-C and Swift projects: An Objective-C view controller extended in Swift is interpreted by Interface Builder as a Swift class that uses the app's module name, but the compiled class does not have a module name so it is not found at runtime.
 
 - App was created from iOS "Tabbed Application" template, using Swift

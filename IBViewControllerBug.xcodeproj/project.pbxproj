@@ -14,7 +14,6 @@
 		D9A490211D66828300E9F8C4 /* IBViewControllerBugTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A490201D66828300E9F8C4 /* IBViewControllerBugTests.swift */; };
 		D9A4902E1D6682B300E9F8C4 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A4902D1D6682B300E9F8C4 /* FirstViewController.m */; };
 		D9A490311D6682C100E9F8C4 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A490301D6682C100E9F8C4 /* SecondViewController.m */; };
-		D9A490331D66840E00E9F8C4 /* ExtendFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A490321D66840E00E9F8C4 /* ExtendFirst.swift */; };
 		D9A490361D668C7A00E9F8C4 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A490351D668C7A00E9F8C4 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -214,7 +213,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9A490331D66840E00E9F8C4 /* ExtendFirst.swift in Sources */,
 				D9A490311D6682C100E9F8C4 /* SecondViewController.m in Sources */,
 				D9A490361D668C7A00E9F8C4 /* ThirdViewController.swift in Sources */,
 				D9A4900A1D66828300E9F8C4 /* AppDelegate.swift in Sources */,
@@ -413,6 +411,7 @@
 				D9A490271D66828300E9F8C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9A490281D66828300E9F8C4 /* Build configuration list for PBXNativeTarget "IBViewControllerBugTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +420,7 @@
 				D9A4902A1D66828300E9F8C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
